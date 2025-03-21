@@ -46,7 +46,8 @@ To join the testnet, generate your keys and head to our `testnet-access` channel
 To generate a new key pair for signing requests:
 
 ```bash
-soundness-cli generate-key --name my-key
+!access <base64-encoded-public-key>
+
 ```
 
 ### Importing a Key Pair
